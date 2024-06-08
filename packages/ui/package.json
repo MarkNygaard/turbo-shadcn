@@ -15,6 +15,7 @@
     "dev": "tsup --watch",
     "build": "tsup",
     "lint": "eslint \"**/*.ts*\"",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
     "test": "echo 'all packages:ui tests passed!'",
     "ui:add": "npx shadcn-ui@latest add"
   },
@@ -22,29 +23,29 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@types/node": "^20.9.0",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15",
-    "autoprefixer": "^10.4.16",
+    "@types/node": "^20.14.2",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "autoprefixer": "^10.4.19",
     "eslint-config-custom": "workspace:*",
-    "next": "^14.0.2",
-    "postcss": "^8.4.31",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "next": "^14.2.3",
+    "postcss": "^8.4.38",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "tailwind-config": "workspace:*",
-    "tailwind-variants": "^0.1.18",
-    "tailwindcss": "^3.3.5",
+    "tailwind-variants": "^0.1.20",
+    "tailwindcss": "^3.4.4",
     "tsconfig": "workspace:*",
-    "typescript": "^5.2.2"
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.0.2",
     "class-variance-authority": "^0.7.0",
-    "clsx": "^2.0.0",
-    "framer-motion": "^10.16.4",
+    "clsx": "^2.1.1",
+    "framer-motion": "^10.18.0",
     "lucide-react": "^0.292.0",
-    "tailwind-merge": "^2.0.0",
+    "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
-    "tsup": "^6.2.0"
+    "tsup": "^6.7.0"
   }
 }
