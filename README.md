@@ -1,20 +1,21 @@
-# Turborepo starter with shadcn/ui
+# Turborepo starter with shadcn/ui and storybook
 
 ![Static Badge](https://img.shields.io/badge/shadcn%2Fui-0.8.0-blue?link=https%3A%2F%2Fgithub.com%2Fshadcn%2Fui)
 
-This is Turborepo starter with shadcn/ui pre-configured.
+This is Turborepo starter with shadcn/ui and storybook pre-configured.
+
+This is a further development of dan5py's repo which you can find here: https://github.com/dan5py/turborepo-shadcn-ui.git
 
 > [!NOTE]
 > This example uses `pnpm` as package manager.
 
-[npm version](https://github.com/dan5py/turborepo-shadcn-ui/tree/npm)
 
 ## Using this example
 
 Clone the repository:
 
 ```sh
-git clone https://github.com/dan5py/turborepo-shadcn-ui.git
+git clone https://github.com/MarkNygaard/turbo-shadcn.git
 ```
 
 Install dependencies:
